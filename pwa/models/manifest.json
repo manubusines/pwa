@@ -1,0 +1,14 @@
+{
+    "#name":"#MasterWeb",
+    "short_name":"#MasterWeb",
+    "description":"A template for a website with a different and modern technology ready to work",
+    "background_color": "#eaeaea",
+    "theme_color": "#eaeaea",
+    "orientation": "portrait",
+    "display": "standalone",
+    "start_url": "./?utm_source=web_app_manifest",
+    "scope": "./",
+    "lang": "es-ES"
+}
+
+ 

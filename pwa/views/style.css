@@ -1,0 +1,41 @@
+:root {
+    --main-color: #eaeaea;
+    --main-modal-color: rgba(240, 219, 79, .5);
+    --second-color: #4eb9ba;
+    --second-modal-color: rgba(43, 43, 43, .5);
+  }
+
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: 'Poppins', sans-serif;
+    min-height: 100vh;
+    width: 100%;
+    background: #eaeaea;
+    color: #000;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+h1 {
+    font-size: 80px;
+}
+
+h2 {
+    align-content: center;
+    font-size: 48px;
+    font-weight: normal;
+    margin-bottom: 48px;
+    color: #848484;
+}
+
+h2:hover {
+    color: var(--second-color);
+  }
+
